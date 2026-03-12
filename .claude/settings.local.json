@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd \"C:\\\\Users\\\\devon\\\\VS Code Projects\\\\agent-shared-library\" && pip install -e . 2>&1)",
+      "Bash(py -3.13 --version 2>&1; py --list 2>&1)",
+      "Bash(python3.13 --version)",
+      "Read(//usr/**)",
+      "Read(//c/Users/devon/AppData/Local/Programs/**)",
+      "Bash(python -c \"import agent_shared; print\\('OK:', agent_shared.__version__\\)\")"
+    ]
+  }
+}

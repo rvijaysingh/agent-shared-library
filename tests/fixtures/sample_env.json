@@ -1,0 +1,11 @@
+{
+  "trello_api_key": "test_trello_key",
+  "trello_api_token": "test_trello_token",
+  "trello_board_id": "oNIV6Mcq",
+  "ollama_host": "http://localhost:11434",
+  "ollama_model": "qwen3:8b",
+  "anthropic_api_keys": {
+    "gmail-to-trello": "sk-ant-test-gmail-key",
+    "grooming": "sk-ant-test-grooming-key"
+  }
+}
