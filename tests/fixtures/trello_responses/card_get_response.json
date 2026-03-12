@@ -1,0 +1,15 @@
+{
+  "id": "card_xyz789",
+  "name": "Review architecture doc",
+  "desc": "Please review the updated architecture document before Friday",
+  "idList": "list_today_001",
+  "pos": 32768.0,
+  "url": "https://trello.com/c/xyz789/review-architecture-doc",
+  "shortUrl": "https://trello.com/c/xyz789",
+  "labels": [
+    {"id": "label_001", "name": "Backend", "color": "blue"}
+  ],
+  "due": "2026-03-15T00:00:00.000Z",
+  "dateLastActivity": "2026-03-12T09:30:00.000Z",
+  "closed": false
+}

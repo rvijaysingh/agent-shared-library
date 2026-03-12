@@ -1,0 +1,6 @@
+[
+  {"id": "label_001", "name": "Backend", "color": "blue"},
+  {"id": "label_002", "name": "Frontend", "color": "green"},
+  {"id": "label_003", "name": "Urgent", "color": "red"},
+  {"id": "label_004", "name": "", "color": null}
+]

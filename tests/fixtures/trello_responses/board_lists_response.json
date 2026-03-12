@@ -1,0 +1,5 @@
+[
+  {"id": "list_inbox_001", "name": "Inbox", "closed": false, "pos": 16384.0},
+  {"id": "list_backlog_001", "name": "Backlog", "closed": false, "pos": 32768.0},
+  {"id": "list_today_001", "name": "Today", "closed": false, "pos": 49152.0}
+]

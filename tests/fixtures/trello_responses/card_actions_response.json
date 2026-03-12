@@ -1,0 +1,16 @@
+[
+  {
+    "id": "action_001",
+    "type": "commentCard",
+    "date": "2026-03-12T10:00:00.000Z",
+    "data": {"text": "This card needs review before Friday"},
+    "memberCreator": {"id": "user_001", "username": "alice"}
+  },
+  {
+    "id": "action_002",
+    "type": "updateCard",
+    "date": "2026-03-11T09:00:00.000Z",
+    "data": {"listAfter": {"name": "Today"}, "listBefore": {"name": "Inbox"}},
+    "memberCreator": {"id": "user_001", "username": "alice"}
+  }
+]

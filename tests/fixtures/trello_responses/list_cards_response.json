@@ -1,0 +1,28 @@
+[
+  {
+    "id": "card_abc123",
+    "name": "Review Q3 board deck",
+    "desc": "See email from Alice",
+    "idList": "list_backlog_001",
+    "pos": 65536.0,
+    "url": "https://trello.com/c/abc123",
+    "shortUrl": "https://trello.com/c/abc123",
+    "labels": [],
+    "due": null,
+    "dateLastActivity": "2026-03-12T10:00:00.000Z",
+    "closed": false
+  },
+  {
+    "id": "card_def456",
+    "name": "Follow up with Bob",
+    "desc": "See email from Bob about the Q4 plan",
+    "idList": "list_backlog_001",
+    "pos": 131072.0,
+    "url": "https://trello.com/c/def456",
+    "shortUrl": "https://trello.com/c/def456",
+    "labels": [{"id": "label_001", "name": "Backend", "color": "blue"}],
+    "due": null,
+    "dateLastActivity": "2026-03-11T10:00:00.000Z",
+    "closed": false
+  }
+]
