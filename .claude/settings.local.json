@@ -15,7 +15,11 @@
       "Bash(python -c \"from agent_shared.infra import load_config, setup_logging, get_db_connection, table_exists, ensure_table, db_connection, ConfigValidationError; print\\('All imports OK'\\)\")",
       "Bash(cd \"C:\\\\Users\\\\devon\\\\VS Code Projects\\\\agent-shared-library\" && python -m pytest tests/test_trello_models.py tests/test_models.py -x -v 2>&1)",
       "Bash(cd \"C:\\\\Users\\\\devon\\\\VS Code Projects\\\\agent-shared-library\" && python -m pytest tests/test_trello_client.py -x -v 2>&1)",
-      "Bash(python -c \"\nfrom agent_shared import TrelloCard, TrelloList, TrelloLabel, LLMResponse, ProcessingResult\nfrom agent_shared.trello import TrelloClient\nprint\\('All imports OK'\\)\nprint\\('TrelloClient methods:', [m for m in dir\\(TrelloClient\\) if not m.startswith\\('_'\\)]\\)\n\")"
+      "Bash(python -c \"\nfrom agent_shared import TrelloCard, TrelloList, TrelloLabel, LLMResponse, ProcessingResult\nfrom agent_shared.trello import TrelloClient\nprint\\('All imports OK'\\)\nprint\\('TrelloClient methods:', [m for m in dir\\(TrelloClient\\) if not m.startswith\\('_'\\)]\\)\n\")",
+      "Bash(cd \"C:\\\\Users\\\\devon\\\\VS Code Projects\\\\agent-shared-library\" && python -m py_compile tests/test_llm_client.py 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\devon\\\\VS Code Projects\\\\agent-shared-library\" && python -m pytest tests/test_llm_client.py -x -v 2>&1)",
+      "Bash(cd \"C:\\\\Users\\\\devon\\\\VS Code Projects\\\\agent-shared-library\" && python -m pytest tests/test_prompt_loader.py -x -v 2>&1)",
+      "Bash(python -c \"\nfrom agent_shared.llm import LLMClient, PromptLoader, LLMUnavailableError, LLMJSONParseError, LLMResponse\nfrom agent_shared import LLMClient, PromptLoader\nprint\\('All imports OK'\\)\nc = LLMClient\\(anthropic_api_key=None\\)\nprint\\('LLMClient\\(no key\\).anthropic_api_key:', repr\\(c.anthropic_api_key\\)\\)\nprint\\('LLMClient\\(empty\\).anthropic_api_key:', repr\\(LLMClient\\(anthropic_api_key=''\\).anthropic_api_key\\)\\)\n\")"
     ]
   }
 }

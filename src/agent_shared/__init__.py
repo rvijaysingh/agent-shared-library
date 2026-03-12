@@ -10,11 +10,17 @@ All functions accept configuration as parameters from the calling agent.
 
 __version__ = "0.1.0"
 
+from agent_shared.llm.client import LLMClient, LLMJSONParseError, LLMUnavailableError
+from agent_shared.llm.prompt_loader import PromptLoader
 from agent_shared.models import LLMResponse, ProcessingResult
 from agent_shared.trello.models import TrelloCard, TrelloLabel, TrelloList
 
 __all__ = [
+    "LLMClient",
+    "PromptLoader",
     "LLMResponse",
+    "LLMUnavailableError",
+    "LLMJSONParseError",
     "ProcessingResult",
     "TrelloCard",
     "TrelloLabel",
