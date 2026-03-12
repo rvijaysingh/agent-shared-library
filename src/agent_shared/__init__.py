@@ -13,6 +13,7 @@ __version__ = "0.1.0"
 from agent_shared.llm.client import LLMClient, LLMJSONParseError, LLMUnavailableError
 from agent_shared.llm.prompt_loader import PromptLoader
 from agent_shared.models import LLMResponse, ProcessingResult
+from agent_shared.trello.client import TrelloClient
 from agent_shared.trello.models import TrelloCard, TrelloLabel, TrelloList
 
 __all__ = [
@@ -22,6 +23,7 @@ __all__ = [
     "LLMUnavailableError",
     "LLMJSONParseError",
     "ProcessingResult",
+    "TrelloClient",
     "TrelloCard",
     "TrelloLabel",
     "TrelloList",
